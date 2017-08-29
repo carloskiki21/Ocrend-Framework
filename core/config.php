@@ -63,7 +63,7 @@ define('APP', 'Ocrend Framework');
 
 # Control de sesiones
 define('DB_SESSION', false);
-define('SESSION_TIME', 18000); # Tiempo de vida para las sesiones 5 horas = 18000 segundos.
+define('SESSION_TIME', 15000); # Tiempo de vida para las sesiones.
 define('SESS_APP_ID', 'app_id');
 session_start([
   'use_strict_mode' => true,
